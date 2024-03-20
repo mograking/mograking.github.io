@@ -1,5 +1,6 @@
 .mappool{
 	display:inline-flex;
+	overflow:scroll;
 }
 
 .card img{
