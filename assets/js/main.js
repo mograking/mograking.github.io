@@ -69,6 +69,7 @@
     let offset = header.offsetHeight
 
     let elementPos = select(el).offsetTop
+	  console.log('hello wrold')
     window.scrollTo({
       top: elementPos - offset,
       behavior: 'smooth'
@@ -172,7 +173,7 @@
    * Porfolio isotope and filter
    */
   window.addEventListener('load', () => {
-    let portfolioContainer = select('.portfolio-container');
+   let portfolioContainer = select('.portfolio-container');
     if (portfolioContainer) {
       let portfolioIsotope = new Isotope(portfolioContainer, {
         itemSelector: '.portfolio-item',
